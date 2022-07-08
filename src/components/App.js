@@ -1,8 +1,9 @@
 // Dependencies
 import React from "react";
+import Box from "./box";
 
 // Styles
-import "./tailwind.output.css";
+import "../tailwind.output.css";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <h2 className="text-center text-4xl font-bold text-blue-900">
         Learning React
       </h2>
+      <Box />
     </div>
   );
 };
